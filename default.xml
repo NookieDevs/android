@@ -8,6 +8,10 @@
            fetch="git://github.com/"
            review="review.cyanogenmod.com" />
 
+  <remote  name="omap-mirror"
+           fetch="git://git.omapzoom.org/"
+           review="review.omapzoom.org" />
+
   <default revision="gingerbread"
            remote="korg" />
 
@@ -16,8 +20,9 @@
   </project>
   <project path="bionic" name="CyanogenMod/android_bionic" remote="github" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
+  <project path="bootable/bootloader/u-boot" name="repo/u-boot" remote="omap-mirror" revision="refs/heads/master" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" />
+  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github"  />
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
