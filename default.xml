@@ -22,7 +22,7 @@
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" />
   <project path="bootable/bootloader/u-boot" name="repo/u-boot" remote="omap-mirror" revision="refs/heads/master" />
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" />
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github"  />
+  <project path="bootable/recovery" name="NookieDevs/android_bootable_recovery" remote="github"  />
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" />
   <project path="development" name="platform/development" />
   <project path="device/common" name="device/common" />
